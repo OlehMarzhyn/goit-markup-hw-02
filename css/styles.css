@@ -4,7 +4,6 @@
   --header-link: #434455;
   --footer-logo: #4d5ae5;
   --footer-text: #f4f4fd;
-
 }
 
 body {
@@ -62,7 +61,6 @@ body {
 }
 .header-nav-web {
   color: var(--header-color);
-
 }
 .header-nav span {
   font-family: "Raleway";
@@ -72,9 +70,6 @@ body {
   letter-spacing: 0.03em;
   color: #434455;
 }
-
-
-
 
 .section-team {
   font-family: "Roboto", sans-serif;
@@ -102,7 +97,6 @@ body {
 
 .section-btn {
   font-family: "Roboto";
-  
 }
 .section-btn-all {
   font-family: "Roboto";
@@ -119,9 +113,9 @@ body {
   font-size: 16px;
   line-height: 1.5x;
   letter-spacing: 0.04em;
- color: var(--footer-logo);
- background-color: #f4f4fd;
- cursor: pointer
+  color: var(--footer-logo);
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 
 .section-about {
@@ -186,7 +180,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--header-color)
+  color: var(--header-color);
 }
 .section-people-list {
 }
@@ -202,11 +196,11 @@ body {
   text-decoration: none;
 }
 .section-foto-name {
-   font-weight: 500;
-    font-size: 20px;
-     line-height: 1.2;
-       letter-spacing: 0.02em;
-       color: var(--header-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
 }
 
 .section-foto-text {
