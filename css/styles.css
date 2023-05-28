@@ -37,11 +37,11 @@ body {
 .header-list:hover {
   color: #404bbf;
 }
-.header-list:fokus {
+.header-list:focus {
   color: #404bbf;
 }
 .header-list {
-  color: var(--header-color)
+  color: var(--header-color);
 }
 .header-team-link {
   font-weight: 500;
@@ -62,7 +62,7 @@ body {
 .header-adr:hover {
   color: #404bbf;
 }
-.header-adr:fokus {
+.header-adr:focus {
   color: #404bbf;
 }
 .header-adr {
@@ -116,29 +116,28 @@ body {
 .section-team-btn:hover {
   background-color: #404bbf;
 }
-.section-team-btn:fokus {
+.section-team-btn:focus {
   background-color: #404bbf;
 }
 
 .section-btn {
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--footer-logo);
-  
+
   background-color: var(--footer-text);
-  
 }
 .section-btn-all {
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--footer-logo);
+  background: var(--footer-text);
   cursor: pointer;
 }
 .section-button {
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5x;
@@ -146,7 +145,6 @@ body {
   color: var(--footer-logo);
   background-color: var(--footer-text);
   cursor: pointer;
-  
 }
 
 .section-about {
@@ -205,12 +203,11 @@ body {
   letter-spacing: 0.02em;
 }
 .section-people-name {
-   font-size: 20px;
-   font-weight: 500;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: var(--header-color);
-
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
 }
 .section-people-work {
   font-size: 16px;
