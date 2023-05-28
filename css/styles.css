@@ -128,7 +128,7 @@ body {
   
 }
 .section-btn-all {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -138,7 +138,7 @@ body {
   cursor: pointer;
 }
 .section-button {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5x;
@@ -251,7 +251,7 @@ body {
 .section-foto-text {
   font-size: 16px;
   line-height: 1.5;
-  initial-letter: 0.02em;
+  letter-spacing: 0.02em;
   color: var(--header-link);
 }
 
