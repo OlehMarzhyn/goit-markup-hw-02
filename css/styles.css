@@ -34,6 +34,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-color);
 }
+.header-list:hover {
+  color: #404bbf;
+}
+.header-list:fokus {
+  color: #404bbf;
+}
 .header-list {
   color: var(--header-color)
 }
@@ -52,6 +58,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.header-adr:hover {
+  color: #404bbf;
+}
+.header-adr:fokus {
+  color: #404bbf;
 }
 .header-adr {
   color: var(--header-link);
@@ -81,6 +93,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: #2e2f42;
 }
+
 .section-team-text {
   font-family: "Roboto";
   font-weight: 700;
@@ -99,6 +112,12 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
+}
+.section-team-btn:hover {
+  background-color: #404bbf;
+}
+.section-team-btn:fokus {
+  background-color: #404bbf;
 }
 
 .section-btn {
