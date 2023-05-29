@@ -7,9 +7,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -21,9 +19,6 @@ body {
   list-style: none;
 }
 .header {
-  font-family: "Raleway";
-  color: #434455;
-  text-transform: uppercase;
 }
 .header-nav {
 }
@@ -81,7 +76,7 @@ body {
   color: var(--header-color);
 }
 .header-nav {
-  font-family: "Raleway";
+
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -121,10 +116,6 @@ body {
 }
 
 .section-btn {
-  font-family: "Roboto", sans-serif;
-  color: var(--footer-logo);
-
-  background-color: var(--footer-text);
 }
 
 .section-button {
@@ -196,10 +187,7 @@ body {
 }
 .section-people {
   background-color: #f4f4fd;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  
 }
 .section-people-name {
   font-size: 20px;
@@ -215,7 +203,7 @@ body {
   color: var(--header-link);
 }
 .section-people-ourteam {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -227,7 +215,6 @@ body {
 }
 .section-list {
   background-color: #ffffff;
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -275,18 +262,15 @@ body {
   text-decoration: none;
 }
 .footer-web {
-  font-family: "Roboto";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text);
